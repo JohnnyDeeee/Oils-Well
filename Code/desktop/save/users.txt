@@ -1,0 +1,6 @@
+john,7,100
+gerben,40,200
+johnyy-doee,10,210
+gerbenNn,20,190
+type your username,5,500
+hans,10,34
