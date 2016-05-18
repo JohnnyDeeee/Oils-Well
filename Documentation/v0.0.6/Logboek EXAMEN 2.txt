@@ -15,3 +15,9 @@ Scrum planning gemaakt en eisen wensenlijst gemaakt.
 
 Vergadering
 ----------
+
+----------
+18-05-2016
+
+Docker file gemaakt
+----------

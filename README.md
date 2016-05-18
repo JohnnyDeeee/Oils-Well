@@ -21,7 +21,7 @@ School Project 2015/2016 MBO GameDevelopment
 </BR>
 
 ## Version History
-**V0.0.5 (current version)**
+**V0.0.6 (current version)**
     
     Added:
 	- Travel back functions
