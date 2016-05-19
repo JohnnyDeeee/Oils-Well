@@ -20,6 +20,7 @@ Vergadering
 18-05-2016
 
 Docker file gemaakt
+<<<<<<< HEAD
 ----------
 
 ----------
@@ -28,3 +29,6 @@ Docker file gemaakt
 Docker werkt niet om een windows testing environment op te zetten, dus wordt Virtualbox gebruikt
 ----------
 
+=======
+----------
+>>>>>>> 19dcee46fa56a088fd43f3e5f97f18156b84fe7a
