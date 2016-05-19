@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="../tilesets/mountain_landscape_23.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0UENgDAUBcEKABQACgAr9e+GL6E3Xsoc5r7J9tZaBwAAAAAAAAAAAAAAAAAAAH5vKeugLaB3dns5Bp0BvbPzI4sfWfzI4kcWP7Jc5R70BPQCAAAAAAAAAAAAAAAAAAAAAAAAAN96AVYI+9Y=
+  </data>
+ </layer>
+ <layer name="Environment 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztnLlyFDEQhsWZc+acublyzpwz54yAJwCeAIh5BO+DAFUQA8bEBmNig4GEnqrtcpd2ZnTM9K+D+ar+WuzVjqRuSZblHxkzMTExNq9Jb0hvUzekcmScV0ifO8p9IH0kfRLfe0d6r9COkonpx8xsx17GeZ30XZST+VkjfSV9E++vkr4EtC9lvtvaE/s5jX5w7GWct0i/W8o0bJJ+kn6J9zdIP1qejcw3oxEvZD849jLO9tjhMrK+ZfH1H9Lfjudr5ptBxAvRD9k+mQPZp9lcn0V9Kx1ft6Gdb0Y7Xoh+yPbJHNhjh8txfV15sUHkm9GMF6of3L6mTTIH9tixx5mdF/t9RjvfjHa8UP2QfZE52EHaSdpF2j3XLvG6h7RX1Nu1V9HON6MdL1Q/ZBvl3mIfaT/pAOngXAfE6yHS4XnZmWnfqzCa+bb7rRkvRD9km+Te4gjpKOkY6XjL6wnSyXnZmWnfqzDa+Wa044XqByP3FkukU6TTpDMtr2dJ58Rn2/YqjHa+Ge14ofrByL3FedIF0kXSpbkuitfLpCsez5Ro5ZtBxUu7H69avneVdI10nXRjruvi9SbpVs8z29DON6MdL1Q/JLdJd0h3Sffmuite75MeeD4LlW9GK17ofszEvx+SHjn0OLKehjHzzaDj1aDRjzaekJ469Mz6TFs8JMh8MxrxStGPmHxoP9+VbwYZL81+yHIx9cyMP9r5HlKPb7xinx+DRj3IfA+px0Ut/UA9v+R53lX3c9ILh14G1GNT8jxHPn9sUuWbGSteqftRGrXFK2RPMYFlueP7ds5mPe+5PlsqtfRDopHv0HJjoNmPEErxD+YSr1hy8w/+j6TwD/5PxKwlCN9dbgxdczXXEpR/0Iec44RYS1C+u9LjxGivJZo+sprixGivJSi/aOlxMga3liD8ojXECeXh1fKR1RYnlIdXy0dWW5yM0V1LbMb2kdUYJ6SHV8NHVlucEJ5UTR9ZTXGSaHtSbcbykdUaJ4SHV9NHVkucUnhSG8b2kdUapwaEh3csX0atcUJ4UlE+stLjZKPtSY2to49a4xRbT0511BAnrbUkhY+sxDj1UZpntKHmOJWYD0mpcUKuJUjfUclxSsFYPrLa4zSRBzl5GHMmRZxK9KROccqXKU4TsZTi4++ilPaX7uPPrf253/usQYr2l3zvM4Ja7jFmcvLxS7gNLlDtr+XeZ5vQ+d4Hsv2IvKO8kkPmex+13GPMIL2SsfO9D1T7a7n3WRI7310g2p9i3Gp6JYfMdxe13GPMILySQ+a7C5TXs5Z7nxuGzHdfarnHmNH2SsbOd98zh1ruMUZ5JWPnu+vMAe31LP3eZyZ2vsecOdRwjzHKKxk6333PHFJ4PUu+95kJne8NoWdNtdxjzGjfB8v4zPeYs6acvWy+eU/hlfSZ775nDpPXM47Q+R5z5jB5oePwqSfmzCGn9pfkKfXpT9+ZQwntz9kz3hA634ecOYxF6ryj8MnHGP9PvTRSeet88uFz5lCzN1DDKzlkvoeeOdRyj3GujHXm0PDajOdPzNnjq+nB9DlzsOPc9Tv8B7P4N6F3Jg9/pQ9je/FixkfXmQP/fdflW1kRZdbM4v5s1ej7K4eMV5QXz3e+9+3h143btyLLbJrF/dmGifdXojzDOXlI+84ctozbtyLLcMyWTby/MoVnOCcPadf8kOuQ/fND019pDHa8pvCQ9tGVD7kO2T+nZZxkuSE+NQlyvCK9eD50nTnIdajPtyLL2Z8LOTNm0OMV6cUbilyzEHebNqQYr+g+xiLXIt6v7DP+PjUexyE+tRTjFe3Fi0WuPbxfOWL8fWqcj9AzY/R4RXvxXLjOHOTvEEsmzKfW9juJi1TjFX1/ayx/zPZ+5bzR96mlGq8pvHghvDKL8+Wqwd1FiRqvaC9eH/8AEBdUqQ==
+  </data>
+ </layer>
+ <layer name="Environment 2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0VsKwjAQBdC4aN2Brk5cgboCH12AVUdIJRTr46MpyDlwk2HIR5hJCQAAAAAAAAAAAAAAAAAAAAD41TyymPoTPC0jq6k/AfDCLrLO9yZyyOl6Kfep4xjZ5nsfueR0vTb3qaMt6tNAXb5hXOWsrwO1fdTTn/U50nx4w3j6s749jtn7N4znm1nbRz32AQAAAAAAAAAAAAAAAAAAAADAP7sDSeIlXQ==
+  </data>
+ </layer>
+</map>

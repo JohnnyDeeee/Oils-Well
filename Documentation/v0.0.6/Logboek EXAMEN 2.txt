@@ -1,0 +1,30 @@
+----------
+11-05-2016
+
+Research gedaan naar Docker en tutorials gevolgd.
+----------
+
+----------
+12-05-2016
+
+Scrum planning gemaakt en eisen wensenlijst gemaakt.
+----------
+
+----------
+13-05-2016
+
+Vergadering
+----------
+
+----------
+18-05-2016
+
+Docker file gemaakt
+----------
+
+----------
+19-5-2016
+
+Docker werkt niet om een windows testing environment op te zetten, dus wordt Virtualbox gebruikt
+----------
+

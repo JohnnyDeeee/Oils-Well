@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32" tilecount="256">
+  <image source="../tilesets/mountain_landscape_23.png" trans="ffffff" width="512" height="512"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0UENgDAUBcEKABQACgAr9e+GL6E3Xsoc5r7J9tZaBwAAAAAAAAAAAAAAAAAAAH5vKeugLaB3dns5Bp0BvbPzI4sfWfzI4kcWP7Jc5R70BPQCAAAAAAAAAAAAAAAAAAAAAAAAAN96AVYI+9Y=
+  </data>
+ </layer>
+ <layer name="Environment 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt18kuLFEcx/Ey7q/GHpe9cW/cG/c0VtwnuPc+AdYeQT0IEtZorN1rWJs3fpXUiX9OqnTSQzXq+0m+Kbqrk5NzasgJAgAAAAAAAAAAAAAAAAAAAAAAAABf2b46UIeNHsg3Z+e5pM5TzjtRp+rMfHakjus6unwIg/e5t/N8rW7MeXZ9rtQ/9d98f6Eu6z3YnHBzb+f5ST0nnBO5Vw/q0Xx/q+7qPtJ8cHNv59l/R7hz7H2yZ/5/Ua/ZDfnbsvNr18A+u8K46Dx3n5RS/kd17HPIroH/jnDnufskbV1QHTe/0bPHroH/jvDfJ/66+N+jcu4at2vQpJpVi2qNazHHNtUevK8De5Lacde43UP8UB2qoDrjCubYpbrjc6N3S9KeBJVx17jdQ/SoXtWnfiYc+9VAfG60Hkl7ElTH7iEG1ZAaViMJx1E1Zn6btCdBdeweYlxNqEk1FTdpjtNqpgFjzIPdhM9m1ZyaVwtx8+a4qJayGiCCZbWiimo1rmiOa2q9YaPLh9D8vaE2y/Qr6wHm2G/1p0x/vd8kPfdQG5WsB2rLXt+VrEcYoF64Pz4X1qMx0p4xW2q7TDtZDBAAPOwdPq+9lM/9NQs/+A4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACArbwQ7txU=
+  </data>
+ </layer>
+ <layer name="Environment 2" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0VsKwjAQBdC4aN2Brk5cgboCH12AVUdIJRTr46MpyDlwk2HIR5hJCQAAAAAAAAAAAAAAAAAAAAD41TyymPoTPC0jq6k/AfDCLrLO9yZyyOl6Kfep4xjZ5nsfueR0vTb3qaMt6tNAXb5hXOWsrwO1fdTTn/U50nx4w3j6s749jtn7N4znm1nbRz32AQAAAAAAAAAAAAAAAAAAAADAP7sDSeIlXQ==
+  </data>
+ </layer>
+</map>
