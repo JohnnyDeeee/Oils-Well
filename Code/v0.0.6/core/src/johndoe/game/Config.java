@@ -9,6 +9,6 @@ public interface Config {
 	static final int WIDTH = 800;
 	static final int HEIGHT = 600;
 	static final boolean RESIZABLE = false;
-	static final boolean USEGL30 = true;
+	static final boolean USEGL30 = false;
 	static final boolean VSYNC = true;
 }
