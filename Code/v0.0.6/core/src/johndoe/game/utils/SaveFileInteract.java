@@ -8,10 +8,6 @@ import java.util.Scanner;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
-import com.badlogic.gdx.utils.Json;
-import com.badlogic.gdx.utils.JsonReader;
-import com.badlogic.gdx.utils.JsonValue;
-import com.badlogic.gdx.utils.JsonWriter.OutputType;
 
 
 public class SaveFileInteract {
@@ -25,6 +21,7 @@ public class SaveFileInteract {
 	private static ArrayList<Integer> old_meters;
 	private static ArrayList<Integer> new_meters;
 	private static ArrayList<String> scores;
+	@SuppressWarnings("unused")
 	private static FileHandle fileHandle;
 	private static String username;
 	private static int method = 1;
@@ -49,6 +46,7 @@ public class SaveFileInteract {
 		}
 	}
 	
+	@SuppressWarnings("unused")
 	public static ArrayList<String> getScores(FileHandle fileHandle){
 		accounts = new ArrayList<String[]>();
 		old_usernames = new ArrayList<String>();

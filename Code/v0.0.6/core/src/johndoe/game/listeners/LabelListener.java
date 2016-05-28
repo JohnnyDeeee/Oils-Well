@@ -1,6 +1,5 @@
 package johndoe.game.listeners;
 
-import johndoe.game.Config;
 import johndoe.game.screens.EndGame;
 import johndoe.game.screens.Highscores;
 import johndoe.game.screens.Loading;

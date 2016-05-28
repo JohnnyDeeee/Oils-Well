@@ -25,7 +25,7 @@ public class Highscores implements Screen{
 	private Skin skin;
 	private Table table;
 	private LabelStyle labelStyle_1, labelStyle_2;
-	private BmapFont bmapFont;
+	//private BmapFont bmapFont;
 	private Label title_label, back_label;
 	private FileHandle highscoreList;
 	private Texture background;
@@ -45,8 +45,8 @@ public class Highscores implements Screen{
 		table = new Table(skin);
 		table.setBounds(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		
-		labelStyle_1 = new LabelStyle(bmapFont.bubblegum_white_128x128, Color.PINK);
-		labelStyle_2 = new LabelStyle(bmapFont.bubblegum_white_64x64, Color.PINK);
+		labelStyle_1 = new LabelStyle(BmapFont.bubblegum_white_128x128, Color.PINK);
+		labelStyle_2 = new LabelStyle(BmapFont.bubblegum_white_64x64, Color.PINK);
 		
 		title_label = new Label("Highscores", labelStyle_1);
 		title_label.setFontScale(0.9f);

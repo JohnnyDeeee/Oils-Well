@@ -1,15 +1,13 @@
 package johndoe.game.entities.player;
 
-import johndoe.game.screens.Play;
-
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputAdapter;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.g2d.Animation;
 
 public class PlayerInput extends InputAdapter{
 
 	private Player player;
+	@SuppressWarnings("unused")
 	private Animation move_up, move_down, move_left, move_right, idle_up, idle_down, idle_left, idle_right, fly_left, fly_right, fly_down;
 	
 	public PlayerInput(Player player){

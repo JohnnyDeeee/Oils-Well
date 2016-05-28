@@ -17,6 +17,7 @@ import com.badlogic.gdx.math.Vector2;
 public class Monster extends Sprite{
 
 	//Fields
+	@SuppressWarnings("unused")
 	private AssetManager manager;
 	private SpriteBatch batch;
 	private TextureAtlas walk_left_atlas, walk_right_atlas;
@@ -27,6 +28,7 @@ public class Monster extends Sprite{
 	private int facing;
 	private Rectangle collisionBox;
 	private TiledMap map;
+	@SuppressWarnings("unused")
 	private int id;
 	private boolean delete;
 	

@@ -26,7 +26,7 @@ public class EndGame implements Screen{
 	private Stage stage;
 	private Skin skin;
 	private Table table;
-	private BmapFont bmapFont;
+	//private BmapFont bmapFont;
 	private static TextField username_field;
 	private TextFieldStyle textfieldStyle_1;
 	private Label title_label, yourscore_label, score_label, username_label, save_label;
@@ -36,6 +36,7 @@ public class EndGame implements Screen{
 	private boolean isCleared;
 	private Texture background;
 	
+	@SuppressWarnings("static-access")
 	public EndGame(int score, int meters){
 		this.score = score;
 		this.meters = meters;
@@ -56,9 +57,9 @@ public class EndGame implements Screen{
 		table = new Table(skin); 
 		table.setBounds(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		
-		labelStyle_1 = new LabelStyle(bmapFont.bubblegum_white_128x128, Color.PINK);
-		labelStyle_2 = new LabelStyle(bmapFont.bubblegum_white_64x64, Color.PINK);
-		textfieldStyle_1 = new TextFieldStyle(bmapFont.bubblegum_white_64x64, Color.PURPLE, null, null, null);
+		labelStyle_1 = new LabelStyle(BmapFont.bubblegum_white_128x128, Color.PINK);
+		labelStyle_2 = new LabelStyle(BmapFont.bubblegum_white_64x64, Color.PINK);
+		textfieldStyle_1 = new TextFieldStyle(BmapFont.bubblegum_white_64x64, Color.PURPLE, null, null, null);
 		
 		title_label = new Label("Save score", labelStyle_1);
 		title_label.setFontScale(0.9f);
@@ -155,12 +156,11 @@ public class EndGame implements Screen{
 	public void hide() {
 	}
 
-	@SuppressWarnings("static-access")
 	@Override
 	public void dispose() {
 		stage.dispose();
 		skin.dispose();
-		bmapFont.dispose();
+		BmapFont.dispose();
 	}
 	
 	public static void save(){

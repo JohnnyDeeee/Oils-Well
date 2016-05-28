@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import johndoe.game.screens.EndGame;
-import johndoe.game.screens.Loading;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -25,18 +24,18 @@ import com.badlogic.gdx.maps.tiled.TiledMap;
 import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
-import com.badlogic.gdx.utils.Timer;
-import com.badlogic.gdx.utils.Timer.Task;
 
 public class Player extends Sprite {
 
 	
 	//Fields
+	@SuppressWarnings("unused")
 	private AssetManager manager;
 	private SpriteBatch batch;
 	private TextureAtlas move_right_atlas, move_left_atlas, move_up_atlas, move_down_atlas, idle_right_atlas, idle_left_atlas, idle_up_atlas, idle_down_atlas, fly_left_atlas, fly_down_atlas, fly_right_atlas;
 	private Animation current_animation, move_right, move_left, move_up, move_down, idle_right, idle_left, idle_up, idle_down, fly_left, fly_right, fly_down;
 	private float timePassed = 0;
+	@SuppressWarnings("unused")
 	private PlayerInput playerInput;
 	private Vector2 pos;
 	private int facing, score, life;
@@ -48,6 +47,7 @@ public class Player extends Sprite {
 	private ArrayList<float[]> oldPositions;
 	private Texture tex;
 	private Sprite rope_horizontal, rope_vertical;
+	@SuppressWarnings("unused")
 	private ShapeRenderer sr;
 	private Random random;
 	private ArrayList<Sprite> ropes = new ArrayList<Sprite>();

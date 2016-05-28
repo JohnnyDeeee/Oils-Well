@@ -33,7 +33,9 @@ public class Play implements Screen {
 	private Player player;
 	private Monster monster1, monster2;
 	private ArrayList<Monster> monsterList;
+	@SuppressWarnings("unused")
 	private int mapWidth, mapHeight, tilePixelWidth, tilePixelHeight, mapPixelWidth, mapPixelHeight;
+	@SuppressWarnings("unused")
 	private ShapeRenderer sr;
 	private LabelStyle labelStyle_1;
 	private Label score_label, life_label;

@@ -10,9 +10,7 @@ import aurelienribon.tweenengine.Tween;
 import aurelienribon.tweenengine.TweenCallback;
 import aurelienribon.tweenengine.TweenManager;
 
-import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.Color;
@@ -32,11 +30,12 @@ public class MainMenu implements Screen{
 	private Stage stage;
 	private Skin skin;
 	private Table table;
-	private BmapFont bmapFont;
+	//private BmapFont bmapFont;
 	private Label title_label, creator_label, version_label, play_label, highscores_label, exit_label;
 	private LabelStyle labelStyle_1, labelStyle_2, labelStyle_3;
 	private Tween tween;
 	private TweenManager tm;
+	@SuppressWarnings("unused")
 	private Timeline menuAnimation;
 	private static Music song;
 	private boolean init;
@@ -98,12 +97,11 @@ public class MainMenu implements Screen{
 //		song.stop(); // Stop playing this music file
 	}
 
-	@SuppressWarnings("static-access")
 	@Override
 	public void dispose() {
 		stage.dispose(); // Dispose the stage
 		skin.dispose(); // Dispose the skin
-		bmapFont.dispose(); // Dispose the bitmapFonts (custom class)
+		BmapFont.dispose(); // Dispose the bitmapFonts (custom class)
 		song.dispose();
 	}
 
@@ -128,9 +126,9 @@ public class MainMenu implements Screen{
 		table.setBounds(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight()); // Set the bounds of the layout to the application's width and height
 		
 		//Setup label styles
-		labelStyle_1 = new LabelStyle(bmapFont.arial_white_32x32, Color.PURPLE); // Creates a style for the version_label
-		labelStyle_2 = new LabelStyle(bmapFont.bubblegum_white_128x128, Color.PINK); // Creates a style for the title_label and creator_label
-		labelStyle_3 = new LabelStyle(bmapFont.bubblegum_white_64x64, Color.PINK); // Creates a style for the play_label, options_label and the exit_label (these labels acts as buttons)
+		labelStyle_1 = new LabelStyle(BmapFont.arial_white_32x32, Color.PURPLE); // Creates a style for the version_label
+		labelStyle_2 = new LabelStyle(BmapFont.bubblegum_white_128x128, Color.PINK); // Creates a style for the title_label and creator_label
+		labelStyle_3 = new LabelStyle(BmapFont.bubblegum_white_64x64, Color.PINK); // Creates a style for the play_label, options_label and the exit_label (these labels acts as buttons)
 		
 		//Setup title_label
 		title_label = new Label(Config.TITLE, labelStyle_2); // Creates the title_label
